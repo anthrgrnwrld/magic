@@ -13,6 +13,8 @@
 		36F532011AEA9BDC0099E3B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F532001AEA9BDC0099E3B8 /* Images.xcassets */; };
 		36F532041AEA9BDC0099E3B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36F532021AEA9BDC0099E3B8 /* LaunchScreen.xib */; };
 		36F532101AEA9BDC0099E3B8 /* MagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5320F1AEA9BDC0099E3B8 /* MagicTests.swift */; };
+		36F5321B1AEA9D280099E3B8 /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F532191AEA9D280099E3B8 /* card.png */; };
+		36F5321C1AEA9D280099E3B8 /* hand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36F5321A1AEA9D280099E3B8 /* hand.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		36F532091AEA9BDC0099E3B8 /* MagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F5320E1AEA9BDC0099E3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36F5320F1AEA9BDC0099E3B8 /* MagicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTests.swift; sourceTree = "<group>"; };
+		36F532191AEA9D280099E3B8 /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card.png; sourceTree = "<group>"; };
+		36F5321A1AEA9D280099E3B8 /* hand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hand.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		36F531F71AEA9BDC0099E3B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36F532191AEA9D280099E3B8 /* card.png */,
+				36F5321A1AEA9D280099E3B8 /* hand.jpg */,
 				36F531F81AEA9BDC0099E3B8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F531FF1AEA9BDC0099E3B8 /* Main.storyboard in Resources */,
+				36F5321C1AEA9D280099E3B8 /* hand.jpg in Resources */,
+				36F5321B1AEA9D280099E3B8 /* card.png in Resources */,
 				36F532041AEA9BDC0099E3B8 /* LaunchScreen.xib in Resources */,
 				36F532011AEA9BDC0099E3B8 /* Images.xcassets in Resources */,
 			);
