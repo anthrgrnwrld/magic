@@ -140,8 +140,10 @@ class ViewController: UIViewController {
     //表示中のカード全てを消去するアクション
     @IBAction func pressClean(sender: AnyObject) {
         for (index, val) in enumerate(imageOldCardViewArray) {
-            imageOldCardViewArray[index].removeFromSuperview()
-            
+            UIView.animateWithDuration(2, animations: { () -> Void in
+                self.imageOldCardViewArray[index].layer.opacity = 0.0
+            })
+            //self.imageOldCardViewArray[index].removeFromSuperview()
         }
         
         imageOldCardViewArray.removeAll()
