@@ -102,6 +102,7 @@ class ViewController: UIViewController {
                                             imgName: "",
                                             imageView: imageCurrectCardView,
                                             isControlImageCardView: false)          //cardViewを見える化(コレは厳密に言うと見えない化...)関数を実行
+            self.view.sendSubviewToBack(imageCurrectCardView)                       //imageCurrectCardViewは最背面へ
 
 
             //2. imageCurrectCardViewをimageOldCardViewArrayに格納する（ようなイメージの処理）
